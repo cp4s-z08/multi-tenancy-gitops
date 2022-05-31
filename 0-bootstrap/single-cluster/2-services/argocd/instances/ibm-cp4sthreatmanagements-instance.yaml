@@ -32,11 +32,11 @@ spec:
       - name: spec.basicDeploymentConfiguration.adminUser
         value: dgdruker@us.ibm.com
       - name: spec.basicDeploymentConfiguration.storageClass
-        value: ibmc-vpc-block-10iops-tier
+        value: ibmc-block-gold
       - name: spec.extendedDeploymentConfiguration.airgapInstall
         value: "false"
       - name: spec.extendedDeploymentConfiguration.backupStorageClass
-        value: ibmc-vpc-block-10iops-tier
+        value: ibmc-block-gold
       - name: spec.extendedDeploymentConfiguration.backupStorageSize
         value: ''
       - name: spec.extendedDeploymentConfiguration.imagePullPolicy
